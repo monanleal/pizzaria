@@ -12,17 +12,13 @@ Este projeto é um site de pizzaria com cardápio digital e carrinho de compras,
 <br/>
 <br/>
 
-**Funcionalidades:**
-- **Visualização do cardápio:**
-Veja todas as pizzas disponíveis com imagens, descrição, tamanhos e preços.
-- **Carrinho de compras:**
-Adicione pizzas ao carrinho, escolha o tamanho, ajuste a quantidade e veja o valor total com desconto.
-- **Responsividade:**
-Layout adaptado para desktop e dispositivos móveis.
-- **Modal de detalhes:**
-Ao clicar em uma pizza, uma janela modal exibe detalhes, tamanhos e permite adicionar ao carrinho.
-- **Finalização de compra:**
-Simulação de finalização do pedido diretamente pelo site.
+### **Como o JavaScript atua na página:**
+
+1. **Leitura dos Dados**: O array pizzaJson serve como fonte de dados para o cardápio.
+2. **Renderização Dinâmica**: O JavaScript percorre esse array e, para cada pizza, gera dinamicamente elementos HTML que exibem as informações na tela.
+3. **Exibição dos Tamanhos e Preços**: Para cada pizza, são mostrados os tamanhos disponíveis e seus respectivos preços, permitindo ao usuário escolher conforme sua preferência.
+4. **Imagens e Descrições**: Cada pizza exibe uma imagem ilustrativa e uma descrição dos ingredientes, tornando a experiência mais visual e informativa.
+5. **Facilidade de Expansão**: A estrutura do array permite adicionar, remover ou editar sabores facilmente, bastando alterar o pizzaJson.
 
 <br/>
 <br/>
